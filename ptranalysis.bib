@@ -1,3 +1,18 @@
+@inproceedings{Guarnieri:2009:GMS:1855768.1855778,
+   author    = {Guarnieri, Salvatore and Livshits, Benjamin},
+   title     = {{GateKeeper}: mostly static enforcement of security and 
+                reliability policies for  {J}avascript code},
+   booktitle = {Proc. of the 18th {USENIX} {S}ecurity {S}ymposium},
+   series    = {SSYM' 09},
+   year      = {2009},
+   location  = {Montreal, Canada},
+   pages     = {151--168},
+   url       = {http://dl.acm.org/citation.cfm?id=1855768.1855778},
+   acmid     = {1855778},
+   publisher = {USENIX Association},
+   address   = {Berkeley, CA, USA},
+}
+
 @inproceedings{vall99soot,
    author    = {Vall{\'e}e-Rai, Raja and Co, Phong and Gagnon, Etienne and
                   Hendren, Laurie and Lam, Patrick and Sundaresan, Vijay},
@@ -13,20 +28,6 @@
    publisher = {IBM Press},
 }
 
-
-@Comment TODO Should this be inbook?
-@Comment http://link.springer.com/chapter/10.1007%2F978-1-4615-2207-2_8
-
-@inproceedings{repsdb,
-  author    = {Thomas Reps},
-  title     = {Demand interprocedural program analysis using logic databases},
-  booktitle = {Applications of Logic Databases},
-  editor    = {R. Ramakrishnan},
-  publisher = {Kluwer Academic Publishers},
-  location  = {Boston, MA},
-  year      = {1994}, 
-  pages     = {163--196}
-}
 
 
 @Comment The following have cross-references to conference proceedings
@@ -293,6 +294,14 @@
    acmid    = {737404},
 }
 
+@inproceedings{icfp/HornM08,
+   author   = {David Van Horn and Harry G. Mairson},
+   title    = {Deciding \emph{k}{CFA} is complete for {EXPTIME}},
+   crossref = {icfp:2008},
+   pages    = {275--282},
+   doi      = {10.1145/1411204.1411243},
+}
+
 
 
 @Comment Articles that have appeared on journals have no cross-references
@@ -412,6 +421,30 @@
   isbn      = {0137296819},
 }
 
+@incollection{repsdb,
+  author    = {Thomas Reps},
+  title     = {Demand interprocedural program analysis using logic databases},
+  booktitle = {Applications of Logic Databases},
+  publisher = {Kluwer Academic Publishers},
+  year      = {1994},
+  pages     = {163--196},
+  editor    = {R. Ramakrishnan},
+}
+
+@incollection{sridharan-alias,
+  author    = {Sridharan, Manu and Chandra, Satish and Dolby, Julian and Fink, StephenJ. and Yahav, Eran},
+  title     = {Alias Analysis for Object-Oriented Programs},
+  booktitle = {Aliasing in Object-Oriented Programming. Types, Analysis and Verification},
+  publisher = {Springer Berlin Heidelberg},
+  year      = {2013},
+  volume    = {7850},
+  pages     = {196--232},
+  editor    = {Clarke, Dave and Noble, James and Wrigstad, Tobias},
+  doi       = {10.1007/978-3-642-36946-9_8},
+  isbn      = {978-3-642-36945-2},
+  series    = {Lecture Notes in Computer Science},
+  language  = {English},
+}
 
 @Comment Important PhD Theses
 
@@ -437,63 +470,4 @@
    school   = {Stanford University},
    title    = {Improving Software Security with Precise Static and Runtime Analysis},
    year     = {2006},
-}
-
-
-
-@Comment 
-@Comment 
-@Comment After this point are the unprocessed entries
-
-
-
-@incollection{sridharan-alias,
-author={Sridharan, Manu and Chandra, Satish and Dolby, Julian and Fink, StephenJ. and Yahav, Eran},
-title={Alias Analysis for Object-Oriented Programs},
-year={2013},
-isbn={978-3-642-36945-2},
-booktitle={Aliasing in Object-Oriented Programming. Types, Analysis and Verification},
-volume={7850},
-series={Lecture Notes in Computer Science},
-editor={Clarke, Dave and Noble, James and Wrigstad, Tobias},
-doi={10.1007/978-3-642-36946-9_8},
-url={http://dx.doi.org/10.1007/978-3-642-36946-9_8},
-publisher={Springer Berlin Heidelberg},
-pages={196-232},
-language={English}
-}
-
-@inproceedings{Guarnieri:2009:GMS:1855768.1855778,
- author = {Guarnieri, Salvatore and Livshits, Benjamin},
- title = {{GateKeeper}: mostly static enforcement of security and reliability policies for {J}avascript code},
- booktitle = {Proceedings of the 18th {USENIX} {S}ecurity {S}ymposium},
- series = {SSYM'09},
- year = {2009},
- location = {Montreal, Canada},
- pages = {151--168},
- numpages = {18},
- url = {http://dl.acm.org/citation.cfm?id=1855768.1855778},
- acmid = {1855778},
- publisher = {USENIX Association},
- address = {Berkeley, CA, USA},
-}
-
-@inproceedings{dvanhorn:VanHorn-Mairson:ICFP08,
-    abstract = {We give an exact characterization of the computational complexity of the  \(k\)CFA hierarchy. For any  \(k  > 0\), we prove that the control flow decision problem is complete for deterministic exponential time. This theorem validates empirical observations that such control flow analysis is intractable. It also provides more general insight into the complexity of abstract interpretation.},
-    author = {Van{ }Horn, David and Mairson, Harry G.},
-    booktitle = {ICFP '08: Proceeding of the 13th ACM SIGPLAN International Conference on Functional Programming},
-    citeulike-article-id = {5152280},
-    citeulike-linkout-0 = {http://portal.acm.org/citation.cfm?id=1411243},
-    citeulike-linkout-1 = {http://dx.doi.org/10.1145/1411204.1411243},
-    date-added = {2009-08-07 21:02:02},
-    isbn = {978-1-59593-919-7},
-    location = {Victoria, BC, Canada},
-    pages = {275--282},
-    priority = {0},
-    title = {Deciding \(k\)CFA is complete for EXPTIME},
-    x-address = {New York, NY, USA},
-    x-doi = {10.1145/1411204.1411243},
-    x-publisher = {ACM},
-    x-url = {http://dx.doi.org/10.1145/1411204.1411243},
-    year = {2008}
 }
