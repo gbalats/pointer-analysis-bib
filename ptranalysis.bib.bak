@@ -24,19 +24,6 @@
  address = {New York, NY, USA},
  }
 
-@inproceedings{1069785,
- author = {Diptikalyan Saha and C. R. Ramakrishnan},
- title = {Incremental and demand-driven points-to analysis using logic programming},
- booktitle = {PPDP '05: Proc. of the 7th ACM SIGPLAN int. conf. on Principles and practice of declarative programming},
- year = {2005},
- isbn = {1-59593-090-6},
- pages = {117--128},
- location = {Lisbon, Portugal},
- doi = {http://doi.acm.org/10.1145/1069774.1069785},
- publisher = {ACM},
- address = {New York, NY, USA},
- }
-
 @inproceedings{folding,
  author = {Saumya Kanti Debray},
  title = {Unfold/fold transformations and loop optimization of logic programs},
@@ -115,19 +102,6 @@
  pages = {43--48},
  location = {Washington DC, USA},
  doi = {http://doi.acm.org/10.1145/996821.996836},
- publisher = {ACM},
- address = {New York, NY, USA},
- }
-
-@inproceedings{1480911,
- author = {Hardekopf,, Ben and Lin,, Calvin},
- title = {Semi-sparse flow-sensitive pointer analysis},
- booktitle = {POPL '09: Proceedings of the 36th annual ACM SIGPLAN-SIGACT symposium on Principles of programming languages},
- year = {2009},
- isbn = {978-1-60558-379-2},
- pages = {226--238},
- location = {Savannah, GA, USA},
- doi = {http://doi.acm.org/10.1145/1480881.1480911},
  publisher = {ACM},
  address = {New York, NY, USA},
  }
@@ -220,18 +194,6 @@
   publisher =    "ACM Press",
 }
 
-@InProceedings{Tip:2000:SPB,
-  author =       "Frank Tip and Jens Palsberg",
-  title =        "Scalable propagation-based call graph construction algorithms",
-  booktitle =    "Proceedings of the Conference on Object-Oriented Programming Systems, Languages, and Applications",
-  year =         "2000",
-  ISBN =         "1-58113-200-X",
-  pages =        "281--293",
-  location =     "Minneapolis, Minnesota, United States",
-  doi =          "http://doi.acm.org/10.1145/353171.353190",
-  publisher =    "ACM Press",
-}
-
 @inproceedings{typed-cfa,
   author = {John Reppy},
   title = {Type-sensitive control-flow analysis},
@@ -257,16 +219,6 @@
     be possible normal CFA.
   },
   topic = {implementation,sml}
-}
-
-@inproceedings{kcfa-pldi10,
-  title = "Resolving and Exploiting the k-{CFA} Paradox: Illuminating Functional vs. Object-Oriented Program Analysis",
-  author = "Matthew Might and Yannis Smaragdakis and David {Van Horn}",
-   booktitle = "Conf. on Programming Language Design and Implementation (PLDI)",
-   publisher = {ACM},
-   year = 2010,
-   month = jun,
-   pages="305--315"
 }
 
 @inproceedings{Liang:2011:SAR:1993498.1993567,
@@ -335,25 +287,11 @@
  keywords = {concurrency, parallelism, refactoring, refactoring, parallelism, concurrency},
 } 
 
-@inproceedings{Bruneton02asm:a,
-  author = {Eric Bruneton and Romain Lenglet and Thierry Coupaye},
-  title = {{ASM}: A code manipulation tool to implement adaptable systems},
-  booktitle = {Adaptable and extensible component systems},
-  year = {2002},
-}
-
 @TECHREPORT{Stark00theproblem,
   author = {Robert F. St\"{a}rk and Joachim Schmid},
   title = {The Problem of Bytecode Verification in Current Implementations of the {JVM}},
   institution = {ETH Z{\"u}rich},
   year = {2000}
-}
-
-@inproceedings{codequest,
-  author   = {Elnar Hajiyev and Mathieu Verbaere and Oege de Moor},
-  title    = {CodeQuest: Scalable Source Code Queries with {D}atalog},
-  pages    = {2--27},
-  crossref = {ecoop:2006},
 }
 
 @inproceedings{lhotak-callgraph12,
@@ -373,23 +311,6 @@
   pages     = {378--400},
   ee        = {http://dx.doi.org/10.1007/978-3-642-39038-8_16},
   crossref  = {ecoop:2013},
-}
-
-@inproceedings{antgrasshopper,
-  author = {Ben Hardekopf and Calvin Lin},
-  title = {The ant and the grasshopper: fast and accurate pointer analysis for millions of lines of code},
-  crossref = {pldi:2007},
-  pages = {290--299},
-}
-
-@inproceedings{DBLP:conf/pldi/WhaleyL04,
-  author    = {John Whaley and
-               Monica S. Lam},
-  title     = {Cloning-based context-sensitive pointer alias analysis using
-               binary decision diagrams},
-  crossref  = {pldi:2004},
-  pages     = {131--144},
-  ee        = {http://doi.acm.org/10.1145/996841.996859},
 }
 
 @inproceedings{DBLP:conf/pldi/BerndlLQHU03,
@@ -433,15 +354,6 @@
   crossref = {pldi:2004},
   pages    = {158--169},
   doi = {http://doi.acm.org/10.1145/996841.996861},
-}
-
-
-@inproceedings{1368142,
-  author   = {Michael Eichberg and Sven Kloppenburg and Karl Klose and Mira Mezini},
-  title    = {Defining and continuous checking of structural program dependencies},
-  pages    = {391--400},
-  doi      = {http://doi.acm.org/10.1145/1368088.1368142},
-  crossref = {icse:2008},
 }
 
 @inproceedings{Fahndrich:1998:POC:277650.277667,
