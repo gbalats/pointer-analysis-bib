@@ -106,20 +106,6 @@
  address = {New York, NY, USA},
  }
 
-@article{1377494,
- author = {Lhot\'{a}k,, Ond\v{r}ej and Hendren,, Laurie},
- title = {Relations as an abstraction for {BDD}-based program analysis},
- journal = {ACM Trans. Program. Lang. Syst.},
- volume = {30},
- number = {4},
- year = {2008},
- issn = {0164-0925},
- pages = {1--63},
- doi = {http://doi.acm.org/10.1145/1377492.1377494},
- publisher = {ACM},
- address = {New York, NY, USA},
- }
-
 @inproceedings{Shivers:1988:CFA,
     address = {New York, NY, USA},
     author = {Shivers, Olin},
@@ -327,14 +313,6 @@
   crossref = {paste:2007},
   pages    = {25--30},
   doi      = {http://doi.acm.org/10.1145/1251535.1251540},
-}
-
-@inproceedings{996861,
-  author   = {Ond\v{r}ej Lhot\'{a}k and Laurie Hendren},
-  title    = {Jedd: a {BDD}-based relational extension of {J}ava},
-  crossref = {pldi:2004},
-  pages    = {158--169},
-  doi = {http://doi.acm.org/10.1145/996841.996861},
 }
 
 @inproceedings{Fahndrich:1998:POC:277650.277667,
