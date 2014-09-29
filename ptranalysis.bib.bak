@@ -287,13 +287,6 @@
  keywords = {concurrency, parallelism, refactoring, refactoring, parallelism, concurrency},
 } 
 
-@TECHREPORT{Stark00theproblem,
-  author = {Robert F. St\"{a}rk and Joachim Schmid},
-  title = {The Problem of Bytecode Verification in Current Implementations of the {JVM}},
-  institution = {ETH Z{\"u}rich},
-  year = {2000}
-}
-
 @inproceedings{lhotak-callgraph12,
   author = {Karim Ali and Ond\v{r}ej Lhot\'{a}k},
   title = {Application-Only Call Graph Construction},
@@ -311,18 +304,6 @@
   pages     = {378--400},
   ee        = {http://dx.doi.org/10.1007/978-3-642-39038-8_16},
   crossref  = {ecoop:2013},
-}
-
-@inproceedings{DBLP:conf/pldi/BerndlLQHU03,
-  author    = {Marc Berndl and
-               Ondrej Lhot{\'a}k and
-               Feng Qian and
-               Laurie J. Hendren and
-               Navindra Umanee},
-  title     = {Points-to analysis using {BDD}s},
-  pages     = {103--114},
-  ee        = {http://doi.acm.org/10.1145/781131.781144},
-  crossref  = {pldi:2003},
 }
 
 @inproceedings{NaikAikenWhaley2006,
