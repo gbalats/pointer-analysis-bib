@@ -233,24 +233,6 @@
   pages =        "3--16",
   publisher =    "ACM",
   address =      "New York, NY, USA",
-}
-
-@inproceedings{Nasre:2012:ESC:2258996.2259013,
- author = {Nasre, Rupesh},
- title = {Exploiting the structure of the constraint graph for efficient points-to analysis},
- booktitle = {Proceedings of the 2012 international symposium on Memory Management},
- series = {ISMM '12},
- year = {2012},
- isbn = {978-1-4503-1350-6},
- location = {Beijing, China},
- pages = {121--132},
- numpages = {12},
- url = {http://doi.acm.org/10.1145/2258996.2259013},
- doi = {10.1145/2258996.2259013},
- acmid = {2259013},
- publisher = {ACM},
- address = {New York, NY, USA},
- keywords = {constraint graph, context-sensitivity, dominators, points-to analysis},
 } 
 
 @article{Dig:2011:RAP:1920042.1920077,
@@ -313,36 +295,7 @@
   crossref = {paste:2007},
   pages    = {25--30},
   doi      = {http://doi.acm.org/10.1145/1251535.1251540},
-}
-
-@inproceedings{Fahndrich:1998:POC:277650.277667,
-  author   = {F\"{a}hndrich, Manuel and Foster, Jeffrey S. and Su, Zhendong and Aiken, Alexander},
-  title    = {Partial online cycle elimination in inclusion constraint graphs},
-  crossref = {pldi:1998},
-  pages    = {85--96},
-  numpages = {12},
-  url      = {http://doi.acm.org/10.1145/277650.277667},
-  doi      = {10.1145/277650.277667},
-  acmid    = {277667},
 } 
-
-@inproceedings{rountevOffline,
-  author   = {Rountev, Atanas and Chandra, Satish},
-  title    = {Off-line variable substitution for scaling points-to analysis},
-  crossref = {pldi:2000},
-  pages = {47--56},
-  numpages = {10},
-  url = {http://doi.acm.org/10.1145/349299.349310},
-  doi = {10.1145/349299.349310},
-  acmid = {349310},
-} 
-
-@inproceedings{hardekopfOffline,
-  author   = {Ben Hardekopf and Calvin Lin},
-  title    = {Exploiting pointer and location equivalence to optimize pointer analysis},
-  crossref = {sas:2007},
-  pages    = {265--280}
-}
 
 @inproceedings{setbased,
   author   = {Yannis Smaragdakis and George Balatsouras and George Kastrinis},
